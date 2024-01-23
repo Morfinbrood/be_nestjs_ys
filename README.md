@@ -72,7 +72,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-
-1) Create postgre db with name TestTaskHighLoad
-2) npx prisma migrate dev --name init
-should create table users with 1 record user with 5000 ballance
+1. npx prisma init
+2. fill .env with correct DATABASE_URL
+3. Create postgre db with name TestTaskHighLoad
+4. npx prisma migrate dev --name init
+   should create table users with 1 record user with 5000 ballance
