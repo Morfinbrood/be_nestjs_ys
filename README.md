@@ -71,3 +71,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+1) Create postgre db with name TestTaskHighLoad
+2) npx prisma migrate dev --name init
+should create table users with 1 record user with 5000 ballance
